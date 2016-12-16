@@ -18,6 +18,7 @@
 // Include the function library
 require "Include/Config.php";
 require "Include/Functions.php";
+use ChurchCRM\dto\SystemConfig;
 
 if (!$_SESSION['bAdmin']) {
     Redirect("Menu.php");
